@@ -9,7 +9,7 @@
     "test": "npm run lint"
   },
   "dependencies": {
-    "electron": "^2.0.2",
+    "electron": "^2.0.8",
     "phaser": "^3.9.0"
   },
   "devDependencies": {
