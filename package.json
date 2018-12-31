@@ -5,7 +5,7 @@
   "main": "./app/main.js",
   "scripts": {
     "start": "electron .",
-    "lint": "standard --fix .js",
+    "lint": "standard --fix app/src/**/*.js | snazzy",
     "test": "npm run lint"
   },
   "dependencies": {
@@ -13,6 +13,7 @@
     "phaser": "^3.9.0"
   },
   "devDependencies": {
+    "snazzy": "^8.0.0",
     "standard": "^11.0.1"
   }
 }

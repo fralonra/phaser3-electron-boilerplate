@@ -1,7 +1,7 @@
 const remote = require('electron').remote
 
 const STATE = {
-  PRELOADER: 'PRELOADER',
+  SPLASH: 'SPLASH',
   MAINMENU: 'MAINMENU',
   GAME: 'GAME'
 }

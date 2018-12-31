@@ -9,7 +9,7 @@ const config = {
     }
   },
   scene: [
-    Preloader,
+    Splash,
     MainMenu,
     Game
   ]
